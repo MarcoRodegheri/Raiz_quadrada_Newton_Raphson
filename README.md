@@ -19,7 +19,7 @@ Implementação **recursiva** do método numérico de **Newton-Raphson** para c�
 A fórmula recursiva implementada é:
 
 ```
-sqrt_nr(x, i) = 1                                   , se i = 0
+sqrt_nr(x, i) = 1                                           , se i = 0
 sqrt_nr(x, i) = (sqrt_nr(x, i-1) + x / sqrt_nr(x, i-1)) / 2 , se i > 0
 ```
 
